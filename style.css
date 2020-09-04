@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+}
+
+.repos, h2, h3, p, a {
+  font-family: 'Patrick Hand', cursive;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+input[type=text] {
+  width: 200px;
+}
+
+input[type=submit]:hover {
+  background-color: #f4cab2;
+}
+
+#octocat {
+  height: 200px;
+  width: auto;
+}
+
+#visit {
+  background-color: #9cdaef;
+  box-shadow: 5px 5px 10px;
+}
