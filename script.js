@@ -20,6 +20,7 @@ function displayResults(responseJson) {
         responseHtml += `<h3>Repo Name: ${userRepo.name}</h3></n>
         <a href="${userRepo.html_url}" target="_blank"><button id="visit">Visit 🚀</button></a>`
     });
+    $('.boom').removeClass('hidden');
     $('.repos').html(responseHtml);
   }
   $('.results').removeClass('hidden');
